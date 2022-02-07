@@ -1,10 +1,11 @@
 # Teileliste
 - [ESP32 Lolin32 Lite](https://www.az-delivery.de/products/esp32-lolin-lolin32)
-- RGB-LED
-- Fotowiderstand (LDR)
-- BMP180
-- 10 \Omega Widerstand
-- 47 \Omega Widerstand
-- 10 k \Omega Widerstand
-- 2x 4.7 k\Omega Widerstand
+- [RGB-LED](https://www.amazon.de/gp/product/B00N7BL4S6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+- [Fotowiderstand (LDR)](https://www.az-delivery.de/products/fotowiderstand-photo-resistor-dioden-150v-5mm-ldr5528-gl5528-5528-50pcs)
+- [BMP180](https://www.az-delivery.de/products/azdelivery-gy-68-bmp180-barometrischer-sensor-luftdruck-modul-fur-arduino-und-raspberry-pi)
+- 10&Omega;	 Widerstand
+- 47&Omega; Widerstand
+- 10k&Omega; Widerstand
+- 2x 4.7k&Omega; Widerstand
 - Mikro USB-Kabel
+- Jumper-Kabel
