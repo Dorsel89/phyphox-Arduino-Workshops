@@ -28,4 +28,8 @@ Durch gedrückt halten des Reset-Buttons (RST) kann der ESP32 in den Flash-Mode 
 Connecting........_____....._____.....___
 ```
 erscheint, den Button wieder loslassen.
-
+### Die Arduino-IDE kompilliert nicht mehr da python nicht gefunden wird (macOS und Linux) ###
+Der Bug sollte mit dem nächsten ArduinoIDE Update behoben sein, bis dahin hilft diese Zeile im Terminal:
+```
+sed -i -e 's/=python /=python3 /g' ~/Library/Arduino15/packages/esp32/hardware/esp32/*/platform.txt
+```
