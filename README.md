@@ -23,7 +23,7 @@ Zuletzt muss noch die _phyphox BLE_ Bibliothek installiert werden. Diese Bibliot
 ### Warum wird mein ESP32 nicht von Windows erkannt?
 Vermutlich fehlt ein Treiber um mit dem USB-Chip des ESP32 zu kommunizieren. In der Regel wird der Chip _CH340_ verwendet, um das zu überprüfen kannst du dir die Beschriftung auf dem IC in der nähe des USB-Ports ansehen. Der benötigte Treiber ist hier zu finden: [CH340 Treiber](https://sparks.gogo.co.nz/ch340.html)
 
-[Make it physics Treiber]([https://sparks.gogo.co.nz/ch340.html](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads))
+[Make it physics Treiber](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 ### Ich erhalte eine Fehlermeldung beim Hochladen meines Sketches
 Durch gedrückt halten des Reset-Buttons (RST) kann der ESP32 in den Flash-Mode gebracht werden. Während der Button gedrückt wird, auf _Sketch hochladen_  klicken und sobald in der Arduino IDE 
 ```
