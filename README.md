@@ -9,7 +9,7 @@ Zuerst muss die Arduino IDE installiert werden. Die Installationsdatei wird kost
 Als nächstes wird in der Arduino IDE eine zusätzliche Quelle für neue Boardtreiber hinterlegt werden. Dazu auf _Datei_ &#8594; _Voreinstellungen_ klicken.
 Anschließend muss folgende URL in das Feld neben _Zusätzliche Boardverwalter-URLs_ kopiert werden:
 ```
-https://dl.espressif.com/dl/package_esp32_index.json
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 ```
 ![esp32_url](/pictures/esp32_url.png) <br />
 Nun kann der eigentliche Boardtreiber über den Boarverwalter installiert werden. Dazu auf _Werkzeuge_ &#8594; _Board_ &#8594; _Boardverwalter_ klicken. Oben rechts kann nun nach _ESP32_ gesucht, und die _esp32_ Bibliothek von _Espressif Systems_ installiert werden. <br />
